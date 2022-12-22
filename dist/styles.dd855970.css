@@ -1,0 +1,70 @@
+h1 {
+  color: white;
+}
+.app {
+  text-align: center;
+}
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+.btn {
+  display: inline-block;
+  position: relative;
+  margin-left: 60%;
+  width: 10%;
+  background: #f39c12;
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btn1 {
+  display: inline-block;
+  margin-top: 1%;
+  position: relative;
+  margin-left: 78%;
+  width: 10%;
+  background: #f39c12;
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background: #fff;
+  box-shadow: 0px 2px 20px 10px #97b1bf;
+  color: #000;
+}
+.btn1:hover {
+  background: #fff;
+  box-shadow: 0px 2px 20px 10px #97b1bf;
+  color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .app {
+  }
+  .btn {
+    width: 30%;
+    margin-left: 35%;
+  }
+  .btn1 {
+    width: 30%;
+    margin-left: 35%;
+  }
+}
+
+
+/*# sourceMappingURL=/styles.dd855970.css.map */
